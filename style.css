@@ -1,0 +1,52 @@
+.container{
+    background-color: transparent;
+    margin-top: 200px;
+    width: 300px;
+    margin-left: 500px;
+    box-shadow: 1px 1px 2px 3px  aqua;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+#section1{
+    margin-top: 30px;
+}
+#section2{
+    margin-bottom: 30px;
+}
+body{
+    background-image: url(design6.jpg);
+    background-size: cover;
+}
+button{
+    color: rgb(0, 119, 255);
+    cursor: pointer;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-style: solid;
+   border-left-style: dashed;
+   border-bottom-style: dotted;
+   border-bottom-color: red;
+   border-top: dashed green;
+}
+button:hover{
+    background-color: rgb(243, 139, 139);
+}
+.container:hover{
+    
+    background-color:rgb(211, 210, 240);
+}
+h1{
+    font-family: cursive;
+    color:rgb(0, 255, 13);
+    text-shadow: 2px 3px 3px rgb(255, 0,0);
+    font-size: 60px;
+}

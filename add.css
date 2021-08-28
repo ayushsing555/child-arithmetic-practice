@@ -1,0 +1,63 @@
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-left: 12px;
+    margin-top: 150px;
+    
+}
+#section1{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+button{
+    margin-right: 22px;
+    width: 120px;
+    height:50px;
+}
+button:hover{
+    background-color: red;
+}
+#answer{
+    margin-left: 12px;
+}
+.container{
+    margin-top: 60px;
+}
+input{
+    font-size:40px;
+    color: red;
+    background-color: transparent;
+}
+#answer:focus{
+    background-color: greenyellow;
+
+}
+h1{
+    font-size:70px;
+    color: red;
+
+}
+body{
+    background-image: url(design2.jpg);
+    background-size: cover;
+}
+button{
+    color: rgb(0, 119, 255);
+    cursor: pointer;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-style: solid;
+   border-left-style: dashed;
+   border-bottom-style: dotted;
+   border-bottom-color: red;
+   border-top: dashed green;
+}
+h2{
+      color: rgb(0, 255, 242);
+}
+.container{
+    margin-bottom:-60px;
+}
